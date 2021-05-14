@@ -1,5 +1,5 @@
 class Circle{
-    constructor(raidus){
+    constructor(radius){
         this.radius = radius
     }
 
@@ -16,6 +16,6 @@ class Circle{
      value * this.radius
     } 
     set circumference(value){
-        [this.diameter * Math.PI] = value 
+        this.diameter = value
     }
 }
